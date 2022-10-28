@@ -19,7 +19,7 @@ public class BlankItemSetup {
 
         //General
 
-        new SlimefunItem(BlankItemGroupSetup.BlankSubGeneral, BlankItems.JC_GENERAL, RecipeType.NULL, new ItemStack[]{
+        new SlimefunItem(BlankItemGroupSetup.BlankSubGeneral, BlankItems.GENERAL, RecipeType.NULL, new ItemStack[]{
                 null, null, null,
                 null, null, null,
                 null, null, null})
@@ -27,7 +27,7 @@ public class BlankItemSetup {
 
         //Machines
 
-        new BlankGenericMachine(BlankItemGroupSetup.BlankGeneralMachines, BlankItems.JC_MACHINE, RecipeType.NULL, new ItemStack[]{
+        new BlankGenericMachine(BlankItemGroupSetup.BlankGeneralMachines, BlankItems.MACHINE, RecipeType.NULL, new ItemStack[]{
                 null, null, null,
                 null, null, null,
                 null, null, null})
@@ -38,7 +38,7 @@ public class BlankItemSetup {
 
         //Generators
 
-        new BlankGenerator(BlankItemGroupSetup.BlankGeneralGenerators, BlankItems.JC_GENERATOR, RecipeType.NULL,1, new ItemStack[]{
+        new BlankGenerator(BlankItemGroupSetup.BlankGeneralGenerators, BlankItems.GENERATOR, RecipeType.NULL,1, new ItemStack[]{
                 null, null, null,
                 null, null, null,
                 null, null, null})
